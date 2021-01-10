@@ -1,0 +1,85 @@
+PATH
+  remote: .
+  specs:
+    kindle_stocker (0.1.0)
+      activesupport
+      ferrum (~> 0.9)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (6.1.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (>= 1.6, < 2)
+      minitest (>= 5.1)
+      tzinfo (~> 2.0)
+      zeitwerk (~> 2.3)
+    addressable (2.7.0)
+      public_suffix (>= 2.0.2, < 5.0)
+    ast (2.4.1)
+    cliver (0.3.2)
+    concurrent-ruby (1.1.7)
+    diff-lcs (1.4.4)
+    ferrum (0.9)
+      addressable (~> 2.5)
+      cliver (~> 0.3)
+      concurrent-ruby (~> 1.1)
+      websocket-driver (>= 0.6, < 0.8)
+    i18n (1.8.7)
+      concurrent-ruby (~> 1.0)
+    minitest (5.14.3)
+    parallel (1.20.1)
+    parser (3.0.0.0)
+      ast (~> 2.4.1)
+    public_suffix (4.0.6)
+    rainbow (3.0.0)
+    rake (13.0.3)
+    regexp_parser (2.0.3)
+    rexml (3.2.4)
+    rspec (3.10.0)
+      rspec-core (~> 3.10.0)
+      rspec-expectations (~> 3.10.0)
+      rspec-mocks (~> 3.10.0)
+    rspec-core (3.10.1)
+      rspec-support (~> 3.10.0)
+    rspec-expectations (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-mocks (3.10.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.10.0)
+    rspec-support (3.10.1)
+    rubocop (0.93.1)
+      parallel (~> 1.10)
+      parser (>= 2.7.1.5)
+      rainbow (>= 2.2.2, < 4.0)
+      regexp_parser (>= 1.8)
+      rexml
+      rubocop-ast (>= 0.6.0)
+      ruby-progressbar (~> 1.7)
+      unicode-display_width (>= 1.4.0, < 2.0)
+    rubocop-ast (1.4.0)
+      parser (>= 2.7.1.5)
+    ruby-progressbar (1.11.0)
+    tzinfo (2.0.4)
+      concurrent-ruby (~> 1.0)
+    unicode-display_width (1.7.0)
+    websocket-driver (0.7.3)
+      websocket-extensions (>= 0.1.0)
+    websocket-extensions (0.1.5)
+    yard (0.9.26)
+    zeitwerk (2.4.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  kindle_stocker!
+  rake (~> 13.0)
+  rspec (~> 3.0)
+  rubocop (~> 0.80)
+  yard
+  zeitwerk
+
+BUNDLED WITH
+   2.1.4

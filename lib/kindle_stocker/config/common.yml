@@ -1,0 +1,8 @@
+google_chrome:
+  path:
+    mac: "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome"
+    linux: "/usr/bin/chromium"
+sign_in:
+  email_input_css: input[type='email']
+  password_input_css: input[type='password']
+  sign_in_submit_css: "#signInSubmit"

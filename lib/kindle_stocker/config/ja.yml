@@ -1,0 +1,12 @@
+sign_in:
+  url: "https://read.amazon.co.jp/notebook?ref_=kcr_notebook_lib"
+  signed_in_css: "#kp-notebook-head"
+book:
+  base_url: "https://read.amazon.co.jp/notebook?"
+books:
+  url: "https://read.amazon.co.jp/notebook?ref_=kcr_notebook_lib"
+  books_css: "#kp-notebook-library .kp-notebook-library-each-book"
+  book:
+    asin_css: "id"
+    title_css: "h2"
+    authors_css: "p"
